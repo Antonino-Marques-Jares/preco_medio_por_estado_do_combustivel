@@ -37,5 +37,8 @@
   
   Com estes resumos criamos ao final um html que exibe o gráfico do preço médio.
 
+# Fonte:
+[Dados Abertos](https://dados.gov.br/dados/conjuntos-dados/serie-historica-de-precos-de-combustiveis-e-de-glp)
+
 # Visualize o resultado em:
 [Área de Trampo](https://www.areadetrampo.com.br/preco-medio-de-combustiveis-2004-a-2024-e-eventos-relevantes/)
