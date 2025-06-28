@@ -6,7 +6,7 @@
 
 ## Passo 2:
   Baixe os dataset's  
-  1º e 2º Semestre dos anos 2004 a 2024 (total de 40 arquivos csv) e salvando todos na pasta csv.
+  1º e 2º Semestre dos anos 2004 a 2024 (total de 42 arquivos csv) e salvando todos na pasta csv.
 
 ## Passo 3:
   Execute o combustivel.ipynb.
