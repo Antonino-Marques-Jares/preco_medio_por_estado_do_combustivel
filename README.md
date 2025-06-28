@@ -15,7 +15,7 @@
   
   Em seguida criamos uma tabela combustivel do sqlite3.
   
-  Com a base de dados sqlite podemos executar consultas onde vamos executar :
+  Com a base de dados sqlite podemos executar que nos traz o preço médio em VL_VENDA:
   
   **SELECT 
           ESTADO,
