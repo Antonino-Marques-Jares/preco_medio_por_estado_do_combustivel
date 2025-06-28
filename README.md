@@ -37,4 +37,5 @@
   
   Com estes resumos criamos ao final um html que exibe o gráfico do preço médio.
 
-
+# Visualize o resultado em:
+[Área de Trampo](https://www.areadetrampo.com.br/preco-medio-de-combustiveis-2004-a-2024-e-eventos-relevantes/)
