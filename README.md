@@ -1,4 +1,4 @@
-# preco_medio_por_estado_do_combustivel
+# Preço médio do combustível por Estado e eventos relevantes 
   Gráfico exibe informações dos preços médios dos combustíveis e eventos relevantes
 
 ##Passo 1: 
