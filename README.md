@@ -9,7 +9,7 @@
   1º e 2º Semestre dos anos 2004 a 2024 (total de 40 arquivos csv) e salvando todos na pasta csv.
 
 ## Passo 3:
-  Execute o Jupyter.
+  Execute o combustivel.ipynb.
   
   Primeiro o código simplifica as informações restringindo as colunas e cria na pasta csv_resumo planilhas com menos colunas.
   
