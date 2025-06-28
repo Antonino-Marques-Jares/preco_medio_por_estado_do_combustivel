@@ -33,12 +33,8 @@
       ORDER BY 
           ESTADO, PRODUTO, MES_ANO;**
   
-  Criando uma tabela que tem o preço médio agrupado por ESTADO, PRODUTO, MES_ANO
+  Em seguida criamos resumo_gasolina.csv, resumo_etanol.csv e resumo_diesel.csv
   
-  Em seguida criamos três arquivos csv dando um resumo do preço médio da gasolina, etanol e diesel.
-  
-  Salvando com os nomes : resumo_gasolina.csv, resumo_etanol.csv e resumo_diesel.csv
-  
-  Com estes arquivos criamos ao final um html que exibe o gráfico do preço médio.
+  Com estes resumos criamos ao final um html que exibe o gráfico do preço médio.
 
 
