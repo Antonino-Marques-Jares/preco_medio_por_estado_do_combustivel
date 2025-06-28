@@ -1,3 +1,5 @@
+![Posto de Gasolina](posto_de_gasolina.jpg)
+
 # Preço médio do combustível por Estado e eventos relevantes 
   Gráfico exibe informações dos preços médios dos combustíveis e eventos relevantes
 
