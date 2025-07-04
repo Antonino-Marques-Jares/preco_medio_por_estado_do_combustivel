@@ -46,4 +46,4 @@
 04/06/2025
 
 # Visualize o resultado em: 
-[Área de Trampo](https://www.areadetrampo.com.br/preco-medio-de-combustiveis-2004-a-2024-e-eventos-relevantes/)
+[Área de Trampo - Histórico de preço médio de combustível por Estado](https://www.areadetrampo.com.br/preco-medio-de-combustiveis-2004-a-2024-e-eventos-relevantes/)
