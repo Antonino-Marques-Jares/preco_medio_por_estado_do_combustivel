@@ -7,8 +7,8 @@
   Crie as pastas csv e csv_resumo
 
 ## Passo 2:
-  Baixe os dataset's  
-  1º e 2º Semestre dos anos 2004 a 2024 (total de 42 arquivos csv) e salvando todos na pasta csv.
+  Baixe os dataset's  **Combustíveis Automotivos** que estão em [Dados Abertos](https://dados.gov.br/dados/conjuntos-dados/serie-historica-de-precos-de-combustiveis-e-de-glp)
+  1º e 2º Semestre dos anos 2004 a 2024 (total de 42 arquivos csv) e salveos na pasta csv.
 
 ## Passo 3:
   Execute o combustivel.ipynb.
@@ -40,7 +40,7 @@
   Com estes resumos criamos ao final um html que exibe o gráfico do preço médio.
 
 # Fonte:
-[Dados Abertos](https://dados.gov.br/dados/conjuntos-dados/serie-historica-de-precos-de-combustiveis-e-de-glp)
+[Dados Abertos - Série Histórica de Preços de Combustíveis e de GLP](https://dados.gov.br/dados/conjuntos-dados/serie-historica-de-precos-de-combustiveis-e-de-glp)
 
 # Dados acessados em: 
 04/06/2025
