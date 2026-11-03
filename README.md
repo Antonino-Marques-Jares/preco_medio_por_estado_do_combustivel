@@ -1,23 +1,21 @@
 ![Posto de Gasolina](posto_de_gasolina.jpg)
 
-# Preço médio do combustível por Estado e eventos relevantes 
-  Gráfico exibe informações dos preços médios dos combustíveis e eventos relevantes
+# Instale as bibliotecas
+ pip install -r requirements.txt
 
 ## Passo 1: 
-  Crie as pastas csv e csv_resumo
+  Crie diretorios D:\ETL\BRONZE e D:\ETL\PRATA
 
 ## Passo 2:
   Baixe os dataset's  **Combustíveis Automotivos** que estão em [Dados Abertos](https://dados.gov.br/dados/conjuntos-dados/serie-historica-de-precos-de-combustiveis-e-de-glp)
-  1º e 2º Semestre dos anos 2004 a 2024 (total de 42 arquivos csv) e salveos na pasta csv.
+  1º e 2º Semestre todos eles salvando em D:\ETL\BRONZE.
 
 ## Passo 3:
-  Execute o combustivel.ipynb.
+  Execute o etl_combustivel_automotivo.py.
   
-  Primeiro o código simplifica as informações restringindo as colunas e cria na pasta csv_resumo planilhas com menos colunas.
+  Será gerando planilhas csv provisórias em D:\ETL\PRATA e uma BD SQLite também provisória.
   
-  Em seguida criamos uma tabela combustivel do sqlite3.
-  
-  Com a base de dados sqlite podemos executar o SQL abaixo que nos traz o preço médio em VL_VENDA:
+  Será executado uma SQL:
   
   **SELECT 
           ESTADO,
@@ -35,18 +33,16 @@
       ORDER BY 
           ESTADO, PRODUTO, MES_ANO;**
   
-  Em seguida criamos resumo_gasolina.csv, resumo_etanol.csv e resumo_diesel.csv
-  
-  Com estes resumos criamos ao final um html que exibe o gráfico do preço médio.
+  O resultado da consulta SQL gerará um json
+
+## Passo 4:
+arquivo JSON salvo no diretorio etl do projeto
+
+## Passo 5:
+É apagado arquivos temporários em D:\ETL\PRATA e a BD SQLite
 
 # Fonte:
 
 [![Gov Br](govbr.webp)](https://dados.gov.br/dados/conjuntos-dados/serie-historica-de-precos-de-combustiveis-e-de-glp)
 
-# Dados acessados em: 
-
-04/06/2025
-
-# Visualize o resultado em: 
-
-[Área de Trampo - Histórico de preço médio de combustível por Estado](https://www.areadetrampo.com.br/preco-medio-de-combustiveis-2004-a-2024-e-eventos-relevantes/)
+[Ativo - Área de Trampo](https://www.areadetrampo.com.br/ativo/)
